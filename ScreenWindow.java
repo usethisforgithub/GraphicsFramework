@@ -69,7 +69,7 @@ public class ScreenWindow extends Frame implements WindowListener, Runnable, Key
 		this.addKeyListener(this);
 		this.addMouseListener(this);
 		this.setSize(800,900);
-		this.setTitle("SCS");
+		this.setTitle("Title");
 		isRunning = true;
 		isDone = false;
 		this.setVisible(true);
